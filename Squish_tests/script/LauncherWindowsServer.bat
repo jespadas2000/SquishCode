@@ -1,0 +1,1 @@
+"path\to\squishserver.exe" start

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DeckCustomerInput id="" version="1.2.0" description="">
+  <outputs mode="vars" frecuency="final" title="">
+    <variable id="h"/>
+  </outputs>
+
+  <CaseCustom id="Custom 1" description="" execute="true" initialise="true" reset="false">
+     <inputs>
+       <variable id="h" value="13"/>
+     </inputs>
+  </CaseCustom>
+</DeckCustomerInput>
+
