@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DeckCustomerInput id="" version="1.2.0" description="">
+  <outputs mode="vars" frecuency="final" title="">
+    <variable id="C.e_n.v"/>
+    <variable id="VAC.v"/>
+  </outputs>
+
+  <CaseCustom id="Custom 1" description="" execute="true" initialise="true" reset="false">
+     <inputs>
+       <variable id="VAC.Voffset" value="0"/>
+       <variable id="VAC.Vpeak" value="10"/>
+       <variable id="VAC.freqHz" value="30"/>
+       <variable id="VAC.phase" value="0"/>
+       <variable id="VAC.startTime" value="0"/>
+     </inputs>
+  </CaseCustom>
+</DeckCustomerInput>
+
