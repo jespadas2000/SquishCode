@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="qt_scrollarea_viewport" key="{CB0DA49B-1A1A-425E-97D4-A122B1527072}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="qt_scrollarea_viewport" ID="{CB0DA49B-1A1A-425E-97D4-A122B1527072}" FileName="Regions\qt_scrollarea_viewport.png" Update="False" />
+		</child>
+		<child name="qt_scrollarea_viewport1" key="{8D44113B-977F-4EA9-9B87-1EC23682E78D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="qt_scrollarea_viewport1" ID="{8D44113B-977F-4EA9-9B87-1EC23682E78D}" FileName="Regions\qt_scrollarea_viewport1.png" Update="False" />
+		</child>
+	</children>
+</Root>

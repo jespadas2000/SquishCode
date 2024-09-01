@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{4C9150D5-1F60-4B41-967D-497C332F996A}">
+	<children>
+		<child name="QtTest" key="{93930FFE-E00F-492B-B396-D16E33697AC7}" path="QtTest\QtTest.mds" />
+	</children>
+	<testItems key="{F9E7A2F9-AD53-47FF-B79D-A712C5AED8FF}">
+		<children>
+			<testItem key="{93930FFE-E00F-492B-B396-D16E33697AC7}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{32ADC674-6F5F-41D5-873C-FA549FC90199}" />
+	<analysis key="{7E2C38AC-5257-4984-96D6-5D3A38FC1371}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

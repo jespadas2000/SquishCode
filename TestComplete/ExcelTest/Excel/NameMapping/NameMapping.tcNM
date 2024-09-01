@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{BEB5559C-3F73-4F70-BEEA-820EA4682855}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="EXCEL" Key="{2CB641A4-1E4C-4618-BAEB-E904DD8F70C7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="EXCEL" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndExcel" Key="{E291839B-48C8-48CE-A117-85BD1B1CB81D}">
+								<Image FileName="-675185126" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="FullpageUIHost" Key="{0C6C75B3-B64B-4AAB-BE7D-596FD7BBB957}">
+										<Image FileName="-675185126" Left="0" Top="0" Right="1920" Bottom="1040" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="FullpageUIHost" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NetUIHWND" Key="{DF459C4D-EFC8-4A7C-8F4D-CD41E6870A1B}">
+												<Image FileName="-675185126" Left="0" Top="0" Right="1920" Bottom="1040" />
+												<TypeInfo Item0="{66181569-E8E9-4CCE-AC58-8971E96968F5}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="NetUIHWND" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="XLDESK" Key="{47770987-5A46-4244-AE60-8E63609757FA}">
+										<Image FileName="-148129333" Left="0" Top="219" Right="1920" Bottom="1018" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="XLDESK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Libro1" Key="{032C962E-7255-47F1-9474-4E6B681211C4}">
+												<Image FileName="-148129333" Left="0" Top="219" Right="1920" Bottom="1018" />
+												<TypeInfo Item0="{66181569-E8E9-4CCE-AC58-8971E96968F5}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL7" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Libro1" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="EXCEL6" Key="{AB3C22DE-E8B2-46F7-9EC5-2EFEA75D64EB}">
+												<Image FileName="-1798935989" Left="186" Top="279" Right="265" Bottom="298" />
+												<TypeInfo Item0="{66181569-E8E9-4CCE-AC58-8971E96968F5}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL6" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="EXCEL2" Key="{FDCACCCF-F223-4D8B-B6E5-18E4555D40FE}">
+										<Image FileName="-1881244681" Left="0" Top="0" Right="1920" Bottom="178" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="EXCEL2" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{DC277AF9-B342-4C0D-8041-5090DC94AD31}">
+												<Image FileName="-1881244681" Left="0" Top="0" Right="1920" Bottom="178" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MsoCommandBar" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Ribbon" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{8CAECFAF-3D52-45D3-AAB7-35EEF57BA9EC}">
+														<Image FileName="-1881244681" Left="0" Top="0" Right="1920" Bottom="178" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MsoWorkPane" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Ribbon" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{38DC4140-0875-4000-88A6-3386EB29C575}">
+																<Image FileName="-1881244681" Left="0" Top="0" Right="1920" Bottom="178" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NUIPane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NetUIHWND" Key="{ECB5C9D0-A020-4DE7-8A14-45363212C866}">
+																		<Image FileName="-1881244681" Left="0" Top="0" Right="1920" Bottom="178" />
+																		<TypeInfo Item0="{66181569-E8E9-4CCE-AC58-8971E96968F5}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NetUIHWND" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndNetUIToolWindow" Key="{0B13E113-E779-49C4-8245-6F1291FA0F43}">
+								<Image FileName="577576438" Left="0" Top="0" Right="234" Bottom="655" />
+								<TypeInfo Item0="{F96C5C5A-D319-4463-B36D-C6956327E527}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Net UI Tool Window" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndNUIDialog" Key="{70136B70-0C32-458E-9E40-79374EA7278A}">
+								<Image FileName="192352953" Left="0" Top="0" Right="228" Bottom="135" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="NUIDialog" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Crear tabla" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NetUIHWND" Key="{CC119702-5B2B-46F2-BB96-BCC6D106A412}">
+										<Image FileName="192352953" Left="8" Top="31" Right="220" Bottom="127" />
+										<TypeInfo Item0="{66181569-E8E9-4CCE-AC58-8971E96968F5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NetUIHWND" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndNUIDialog2" Key="{3B9DF727-52C2-424C-B070-5F9732254EDD}">
+								<Image FileName="559123071" Left="0" Top="0" Right="460" Bottom="312" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="NUIDialog" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NetUIHWND" Key="{676C4B08-4967-4DAD-92F0-0FC37E0B69DE}">
+										<Image FileName="559123071" Left="1" Top="31" Right="459" Bottom="311" />
+										<TypeInfo Item0="{66181569-E8E9-4CCE-AC58-8971E96968F5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NetUIHWND" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="EXCEL" Owner="{2CB641A4-1E4C-4618-BAEB-E904DD8F70C7}">
+			<Child Name="wndExcel" Owner="{E291839B-48C8-48CE-A117-85BD1B1CB81D}">
+				<Child Name="FullpageUIHost" Owner="{0C6C75B3-B64B-4AAB-BE7D-596FD7BBB957}">
+					<Child Name="NetUIHWND" Owner="{DF459C4D-EFC8-4A7C-8F4D-CD41E6870A1B}" />
+				</Child>
+				<Child Name="XLDESK" Owner="{47770987-5A46-4244-AE60-8E63609757FA}">
+					<Child Name="Libro1" Owner="{032C962E-7255-47F1-9474-4E6B681211C4}" />
+					<Child Name="EXCEL6" Owner="{AB3C22DE-E8B2-46F7-9EC5-2EFEA75D64EB}" />
+				</Child>
+				<Child Name="EXCEL2" Owner="{FDCACCCF-F223-4D8B-B6E5-18E4555D40FE}">
+					<Child Name="toolbar" Owner="{DC277AF9-B342-4C0D-8041-5090DC94AD31}">
+						<Child Name="Ribbon" Owner="{8CAECFAF-3D52-45D3-AAB7-35EEF57BA9EC}">
+							<Child Name="NUIPane" Owner="{38DC4140-0875-4000-88A6-3386EB29C575}">
+								<Child Name="NetUIHWND" Owner="{ECB5C9D0-A020-4DE7-8A14-45363212C866}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndNetUIToolWindow" Owner="{0B13E113-E779-49C4-8245-6F1291FA0F43}" />
+			<Child Name="wndNUIDialog" Owner="{70136B70-0C32-458E-9E40-79374EA7278A}">
+				<Child Name="NetUIHWND" Owner="{CC119702-5B2B-46F2-BB96-BCC6D106A412}" />
+			</Child>
+			<Child Name="wndNUIDialog2" Owner="{3B9DF727-52C2-424C-B070-5F9732254EDD}">
+				<Child Name="NetUIHWND" Owner="{676C4B08-4967-4DAD-92F0-0FC37E0B69DE}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F761C979-051F-4ACC-96E0-AF19F684FEE6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{3ECF0F3C-E15D-4567-B025-62DBAD4EE02F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTaskListThumbnailWnd" Key="{FF3907D6-CB84-457A-93FD-EF3B8AC305D5}">
+								<TypeInfo Item0="{61C77090-2124-4464-958B-71342E7C8D05}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{75C89979-E5B3-4E9C-912F-BF3CC8AB6823}">
+								<Image FileName="-432633559" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{03262B83-9736-4581-8BAA-53F53CB7766E}">
+										<Image FileName="-432633559" Left="144" Top="0" Right="1850" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{0D0B711A-8DCA-494F-9E44-65F92195AC0B}">
+												<Image FileName="-432633559" Left="144" Top="0" Right="1850" Bottom="40" />
+												<TypeInfo Item0="{FF9448C2-318C-455D-8B00-05BDC241E672}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Basic_App" Key="{154C0874-7098-4A83-BF40-A25ED47D22D4}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Basic_App" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="APP_windowClass" Key="{DCA849BE-50AA-44FF-9F55-0AF75FF2E0DB}">
+								<Image FileName="1208324675" Left="0" Top="0" Right="816" Bottom="639" />
+								<Properties>
+									<Property Name="objectName">
+										<Value Value="APP_windowClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="centralwidget" Key="{4CDF35B6-962F-49C1-B39B-2107C8098FC3}">
+										<Image FileName="1208324675" Left="8" Top="31" Right="808" Bottom="610" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="centralwidget" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="m_newPersonButton" Key="{482C6853-1F03-44C4-844B-CBFC85FF0292}">
+												<Image FileName="1208324675" Left="543" Top="577" Right="668" Bottom="601" />
+												<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+												<Properties>
+													<Property Name="objectName">
+														<Value Value="m_newPersonButton" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="m_personTreeView" Key="{4F0706E5-12B5-4777-AEA5-59E3EFAF6988}">
+												<Image FileName="-1601782925" Left="17" Top="40" Right="537" Bottom="601" />
+												<TypeInfo Item0="{706048FE-E808-461B-AC72-62DE14566092}" />
+												<Properties>
+													<Property Name="objectName">
+														<Value Value="m_personTreeView" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="qt_scrollarea_viewport" Key="{3BF1F6B2-AF28-41C5-8FB9-F2D435DAFA8A}">
+														<Image FileName="-1601782925" Left="18" Top="65" Right="536" Bottom="600" />
+														<TypeInfo Item0="{706048FE-E808-461B-AC72-62DE14566092}" />
+														<Properties>
+															<Property Name="objectName">
+																<Value Value="qt_scrollarea_viewport" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="m_exitButton" Key="{AD8113A9-EDB4-4846-9C79-E316DE432AD9}">
+												<Image FileName="1144190931" Left="674" Top="577" Right="799" Bottom="601" />
+												<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+												<Properties>
+													<Property Name="objectName">
+														<Value Value="m_exitButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="APP_newPersonClass" Key="{83FA57FB-C0AD-4127-B8DE-61D4C6B20B8A}">
+								<Image FileName="-1174012766" Left="0" Top="0" Right="268" Bottom="225" />
+								<Properties>
+									<Property Name="objectName">
+										<Value Value="APP_newPersonClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="m_cancelButton" Key="{DCCCAD86-D468-478B-A50D-D8EAB52A7F40}">
+										<Image FileName="-1174012766" Left="174" Top="182" Right="249" Bottom="206" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_cancelButton" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="m_nameQLine" Key="{C04B0502-FA36-41BE-81F4-1756380016C0}">
+										<Image FileName="587724096" Left="93" Top="42" Right="249" Bottom="64" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_nameQLine" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="m_surnameQLine" Key="{4F308276-CAD5-4E6A-BD28-FE566B00C9DE}">
+										<Image FileName="-1868247190" Left="93" Top="70" Right="249" Bottom="92" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_surnameQLine" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="m_ageQLine" Key="{503949BB-56D1-4540-B559-4B8E0E6625A6}">
+										<Image FileName="-1837879771" Left="93" Top="98" Right="249" Bottom="120" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_ageQLine" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="m_sexComboBox" Key="{F4F42D0F-4026-4A8C-BDA2-7DF8F418831C}">
+										<Image FileName="1282371188" Left="93" Top="126" Right="249" Bottom="148" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_sexComboBox" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="m_okButton" Key="{8823EA8D-77C4-4C7D-8A76-C0E412979BC6}">
+										<Image FileName="2024807578" Left="93" Top="182" Right="168" Bottom="206" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_okButton" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="m_parentComboBox" Key="{B4A66D02-D54A-446A-8AE7-52D18D941268}">
+										<Image FileName="19934352" Left="93" Top="154" Right="249" Bottom="176" />
+										<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="m_parentComboBox" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="MessageBox" Key="{308CCA5D-A855-40FB-BB30-4AA8CDAACEA1}">
+								<Image FileName="-477259726" Left="0" Top="0" Right="330" Bottom="132" />
+								<Properties>
+									<Property Name="QtClassName">
+										<Value Value="QMessageBox" />
+									</Property>
+									<Property Name="QtText">
+										<Value Value="To add a person please fill all the empty boxes" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="qt_msgbox_buttonbox" Key="{9F9E547D-CEB4-499F-9142-B58F3EA538E0}">
+										<Image FileName="-477259726" Left="19" Top="80" Right="311" Bottom="113" />
+										<Properties>
+											<Property Name="objectName">
+												<Value Value="qt_msgbox_buttonbox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{2262B3F0-306B-4357-8AB6-3903AEC05FA6}">
+												<Image FileName="-477259726" Left="236" Top="89" Right="311" Bottom="113" />
+												<TypeInfo Item0="{7A3ABAE2-F849-4C2B-9483-413BC3B37A78}" />
+												<Properties>
+													<Property Name="QtClassName">
+														<Value Value="QPushButton" />
+													</Property>
+													<Property Name="QtText">
+														<Value Value="OK" />
+													</Property>
+													<Property Name="QtIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="notepad_" Key="{899E6118-EC94-4677-ACB5-A2A7BAC13587}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad++" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{2BDA1746-787B-4F87-A076-80105781D776}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad++" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Scintilla" Key="{994F58A7-C541-4F29-ADEF-D1514DA012AB}">
+										<TypeInfo Item0="{FF9448C2-318C-455D-8B00-05BDC241E672}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Scintilla" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Notepad++" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{3ECF0F3C-E15D-4567-B025-62DBAD4EE02F}">
+			<Child Name="wndTaskListThumbnailWnd" Owner="{FF3907D6-CB84-457A-93FD-EF3B8AC305D5}" />
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{75C89979-E5B3-4E9C-912F-BF3CC8AB6823}">
+				<Child Name="WorkerW" Owner="{03262B83-9736-4581-8BAA-53F53CB7766E}">
+					<Child Name="MSTaskListWClass" Owner="{0D0B711A-8DCA-494F-9E44-65F92195AC0B}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Basic_App" Owner="{154C0874-7098-4A83-BF40-A25ED47D22D4}">
+			<Child Name="APP_windowClass" Owner="{DCA849BE-50AA-44FF-9F55-0AF75FF2E0DB}">
+				<Child Name="centralwidget" Owner="{4CDF35B6-962F-49C1-B39B-2107C8098FC3}">
+					<Child Name="m_newPersonButton" Owner="{482C6853-1F03-44C4-844B-CBFC85FF0292}" />
+					<Child Name="m_personTreeView" Owner="{4F0706E5-12B5-4777-AEA5-59E3EFAF6988}">
+						<Child Name="qt_scrollarea_viewport" Owner="{3BF1F6B2-AF28-41C5-8FB9-F2D435DAFA8A}" />
+					</Child>
+					<Child Name="m_exitButton" Owner="{AD8113A9-EDB4-4846-9C79-E316DE432AD9}" />
+				</Child>
+			</Child>
+			<Child Name="APP_newPersonClass" Owner="{83FA57FB-C0AD-4127-B8DE-61D4C6B20B8A}">
+				<Child Name="m_cancelButton" Owner="{DCCCAD86-D468-478B-A50D-D8EAB52A7F40}" />
+				<Child Name="m_nameQLine" Owner="{C04B0502-FA36-41BE-81F4-1756380016C0}" />
+				<Child Name="m_surnameQLine" Owner="{4F308276-CAD5-4E6A-BD28-FE566B00C9DE}" />
+				<Child Name="m_ageQLine" Owner="{503949BB-56D1-4540-B559-4B8E0E6625A6}" />
+				<Child Name="m_sexComboBox" Owner="{F4F42D0F-4026-4A8C-BDA2-7DF8F418831C}" />
+				<Child Name="m_okButton" Owner="{8823EA8D-77C4-4C7D-8A76-C0E412979BC6}" />
+				<Child Name="m_parentComboBox" Owner="{B4A66D02-D54A-446A-8AE7-52D18D941268}" />
+			</Child>
+			<Child Name="MessageBox" Owner="{308CCA5D-A855-40FB-BB30-4AA8CDAACEA1}">
+				<Child Name="qt_msgbox_buttonbox" Owner="{9F9E547D-CEB4-499F-9142-B58F3EA538E0}">
+					<Child Name="buttonOk" Owner="{2262B3F0-306B-4357-8AB6-3903AEC05FA6}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="notepad_" Owner="{899E6118-EC94-4677-ACB5-A2A7BAC13587}">
+			<Child Name="wndNotepad" Owner="{2BDA1746-787B-4F87-A076-80105781D776}">
+				<Child Name="Scintilla" Owner="{994F58A7-C541-4F29-ADEF-D1514DA012AB}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
