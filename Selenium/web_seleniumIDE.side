@@ -1,0 +1,183 @@
+{
+  "id": "82ca0e4a-d7af-4347-b571-ed3be7af3236",
+  "version": "2.0",
+  "name": "web_seleniumIDE",
+  "url": "https://www.ucm.es",
+  "tests": [{
+    "id": "fd736749-a106-4611-993d-b2fc7455f658",
+    "name": "first_test",
+    "commands": [{
+      "id": "fa25f3a4-32a5-49c6-a445-9b643f25d50f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd432b99-8f25-4172-8f15-07048dd72d96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1ef0cbf-48cf-4bd1-9deb-d2008256b5f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active img",
+      "targets": [
+        ["css=.active img", "css:finder"],
+        ["xpath=//img[@alt='La Complutense entrega sus premios al emprendimiento']", "xpath:img"],
+        ["xpath=//div[@id='carouselUcm']/div/article/figure/a/img", "xpath:idRelative"],
+        ["xpath=//figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fdde280-070d-4c48-9163-4b1abb50cdf6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active img",
+      "targets": [
+        ["css=.active img", "css:finder"],
+        ["xpath=//img[@alt='La Complutense entrega sus premios al emprendimiento']", "xpath:img"],
+        ["xpath=//div[@id='carouselUcm']/div/article/figure/a/img", "xpath:idRelative"],
+        ["xpath=//figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40bb1836-1f9e-465b-8d2f-cd345f1d9590",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Universidad",
+      "targets": [
+        ["linkText=Universidad", "linkText"],
+        ["css=li:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universidad')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu_vip']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/laucm')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "697a4650-3640-4e68-b9de-709dc28f8109",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Universidad",
+      "targets": [
+        ["linkText=Universidad", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universidad')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu_vip']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/laucm')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61408f26-22f8-4745-a207-5105114b4479",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Universidad",
+      "targets": [
+        ["linkText=Universidad", "linkText"],
+        ["css=li:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Universidad')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu_vip']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/laucm')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3227604f-2a55-4926-bad7-14d615831faf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Facultades",
+      "targets": [
+        ["linkText=Facultades", "linkText"],
+        ["css=.ul-grow-6 > li:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Facultades')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_vip']/li/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/facultades')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Facultades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5a9774-e51e-43c9-a9d9-5707d08648f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Informática",
+      "targets": [
+        ["linkText=Informática", "linkText"],
+        ["css=li:nth-child(20) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Informática')]", "xpath:link"],
+        ["xpath=//div[@id='lista_1']/div/ul/li[20]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://informatica.ucm.es']", "xpath:href"],
+        ["xpath=//li[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Informática')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b621464-f2c3-42e2-90c8-08e2ff68e3c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='formbuscador']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe1f6e57-aadc-4d77-ae49-b2766f0ee7bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='formbuscador']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "conferencias"
+    }, {
+      "id": "abcd53f3-5de6-42f7-8961-c8a40bd886ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='formbuscador']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "67d20624-888d-49a2-86b8-551db7837dfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "df60c979-7971-4823-8ad2-ed8196024aa8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fd736749-a106-4611-993d-b2fc7455f658"]
+  }],
+  "urls": ["https://www.ucm.es/"],
+  "plugins": []
+}
